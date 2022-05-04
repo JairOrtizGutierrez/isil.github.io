@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/pt-root-ui');
+
+:root {
+    --color1: #472E27;
+    --color2: #603E35;
+    --color3: #6E473C;
+}
+
+body {
+    font-family: 'PT Root UI', sans-serif;
+    color: var(--color1) !important;
+}
+
+section {
+    margin-top: 148px;
+}
+
+section > div > article:first-child {
+    height: calc(100vh - 158px);
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color1);
+}
+
+nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav #menu {
+    position: relative;
+    z-index: 100;
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: var(--color1) !important;
+}
+
+article #presentation span {
+    font-size: 14px;
+    color: var(--color3);
+}
+
+article #health > div > div > div > i,
+article #news > div > div > div > i {
+    font-size: 60px;
+}
+
+article #health > div > div > div > span,
+article #news > div > div > div > span,
+footer {
+    font-size: 14px;
+    color: var(--color3);
+}
+
+footer button {
+    border-radius: 0px !important;
+    background-color: var(--color2) !important;
+    font-size: 14px !important;
+}
+
+/*-- responsive --*/
+
+@media screen and (max-width: 1199px) {
+    
+    
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+    section > div > article:first-child {
+        height: auto;
+    }
+    
+    nav ul {
+        overflow: hidden;
+        height: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
+        background-color: #fff;
+        -webkit-transition: 0.3s ease-in all;
+        transition: 0.3s ease-in all;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+    
+    
+}
